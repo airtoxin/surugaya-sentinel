@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: npm install -g enantiom@next
+      - run: npm install -g enantiom
       - run: enantiom -c enantiom.config.json -vv
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
