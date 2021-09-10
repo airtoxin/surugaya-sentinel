@@ -1,0 +1,8 @@
+{
+  "name": "surugaya-sentinel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:airtoxin/surugaya-sentinel.git",
+  "author": "airtoxin <airtoxin@icloud.com>",
+  "license": "MIT"
+}
