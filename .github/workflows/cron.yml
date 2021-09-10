@@ -1,7 +1,8 @@
 name: cron
+
 on:
   schedule:
-    - "0 * * * *"
+    - cron: "0 * * * *"
 
 jobs:
   enantiom:
