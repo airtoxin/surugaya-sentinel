@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:airtoxin/surugaya-sentinel.git",
   "author": "airtoxin <airtoxin@icloud.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "enantiom -c enantiom.config.json -vv"
+  },
+  "dependencies": {
+    "enantiom": "latest"
+  }
 }
