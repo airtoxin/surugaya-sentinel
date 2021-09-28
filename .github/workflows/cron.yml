@@ -12,6 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: |
+          curl -L https://github.com/airtoxin/surugaya-sentinel/tarball/gh-pages > source.tar.gz
+          tar -xzf source.tar.gz
+          mv airtoxin-surugaya-sentinel-* dist
       - run: yarn
       - run: yarn start
       - name: Deploy
