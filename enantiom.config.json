@@ -1,6 +1,10 @@
 {
   "artifact_path": "dist",
   "base_path": "/surugaya-sentinel",
+  "sizes": {
+    "width": 1440,
+    "height": 900
+  },
   "screenshots": [
     "https://www.suruga-ya.jp/search?category=50100&search_word=&adult_s=2&ck=true&rankBy=modificationTime%3Adescending"
   ],

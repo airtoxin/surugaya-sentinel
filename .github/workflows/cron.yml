@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: apt-get install -y fontconfig fonts-noto-cjk && fc-cache -fv
+      - run: sudo apt-get install -y fontconfig fonts-noto-cjk && fc-cache -fv
       - run: |
           curl -L https://github.com/airtoxin/surugaya-sentinel/tarball/gh-pages > source.tar.gz
           tar -xzf source.tar.gz
