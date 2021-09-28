@@ -2,6 +2,11 @@
   "artifact_path": "dist",
   "base_path": "/surugaya-sentinel",
   "screenshots": [
-    "https://www.suruga-ya.jp/search?category=50100&search_word=&adult_s=1&rankBy=modificationTime%3Adescending"
-  ]
+    "https://www.suruga-ya.jp/search?category=50100&search_word=&adult_s=2&ck=true&rankBy=modificationTime%3Adescending"
+  ],
+  "scripting": {
+    "pre_scripts": [
+      "[wait-state]=networkidle"
+    ]
+  }
 }
