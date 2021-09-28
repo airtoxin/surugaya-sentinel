@@ -6,9 +6,10 @@
   "author": "airtoxin <airtoxin@icloud.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "PWDEBUG=console enantiom -c enantiom.config.json -vv",
     "start": "enantiom -c enantiom.config.json -vv"
   },
   "dependencies": {
-    "enantiom": "latest"
+    "enantiom": "3.0.0-1"
   }
 }
