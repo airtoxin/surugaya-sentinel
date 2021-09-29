@@ -2,6 +2,37 @@
   "stateVersion": "1",
   "results": [
     {
+      "timestamp": "1632935766830",
+      "screenshots": [
+        {
+          "hash": "4bc2aa126fa54d4c398d69c34a77f0c326744822",
+          "config": {
+            "url": "https://www.suruga-ya.jp/search?category=50100&search_word=&adult_s=2&ck=true&rankBy=modificationTime%3Adescending",
+            "browser": "chromium",
+            "size": {
+              "width": 1440,
+              "height": 900
+            },
+            "fullPage": false,
+            "scripts": {
+              "preScripts": [
+                {
+                  "type": "waitForLoadState",
+                  "event": "networkidle"
+                }
+              ]
+            },
+            "diffOptions": {
+              "outputDiffMask": true
+            },
+            "timeout": 30000
+          },
+          "filepath": "assets/1632935766830/4bc2aa126fa54d4c398d69c34a77f0c326744822.png",
+          "prevFilepath": "assets/1632932091328/4bc2aa126fa54d4c398d69c34a77f0c326744822.png"
+        }
+      ]
+    },
+    {
       "timestamp": "1632932091328",
       "screenshots": [
         {
@@ -32,7 +63,6 @@
           "diff": {
             "diffFilepath": "assets/1632932091328/c43392a6cb5c542f2d9206abb3fc3abb092baecf.png",
             "result": {
-              "match": false,
               "reason": "pixel-diff",
               "diffCount": 159283,
               "diffPercentage": 12.2903549383
