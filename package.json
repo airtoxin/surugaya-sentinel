@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "PWDEBUG=console enantiom run -c enantiom.config.json -vv",
-    "start": "enantiom run -c enantiom.config.json -vv"
+    "start": "enantiom run -c enantiom.config.json -vv --fail-in-diff"
   },
   "dependencies": {
     "enantiom": "3.0.0-1"
